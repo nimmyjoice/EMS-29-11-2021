@@ -1,0 +1,6 @@
+/**
+ * 
+ */
+function display(){
+	alert("click")
+}

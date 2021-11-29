@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+background:url("login.jpg");
+background-size: cover;
+}
+.box{
+	margin-left:50px;   
+                border:50px solid Purple;   
+                width:300px;   
+                height:200px;   
+                text-align:center;   
+                padding:50px;
+                position: absolute;
+               top:50%;
+               left: 50%;
+               
+            background: rgba(0,0,0,0.4);
+            text-align: centre;
+}
+.box h1 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.box input [type="text"],.box input[type="password"]
+{
+	border: 0;
+	background: white;
+	display: block;
+	margin: 30px;
+	text-align: centre;
+	border: 3px solid;
+	padding: 50px;
+	width: 220px;
+	outline: none;
+	color:white;
+	border-radius: 50px;
+	
+	
+}
+.box input [type="text"],focus,.box input[type="password"],focus{
+	width: 270px;
+	border-color: blue;
+	
+}
+	.box input [type="submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 30px;
+	text-align: centre;
+	border: 3px solid;
+	padding: 14px;
+	width: 220px;
+	outline: none;
+	color:white;
+	border-radius: 24px;
+	cursor: pointer;
+	
+	}
+	

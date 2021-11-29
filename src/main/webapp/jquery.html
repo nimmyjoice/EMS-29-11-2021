@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script >
+$(document).ready(function(){
+
+	$("#hide").click(function(){
+		$("p").hide(); 
+	});
+	$("#show").click(function(){  
+        $("p").show();  
+    });  
+});
+
+
+</script>
+<script >
+$(document).ready(function(){    
+    $("button").click(function(){    
+        $("div.d1").toggle();    
+    });    
+});    </script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="d1" style="border:1px solid black;padding:10px;width:250px">
+<button>Toggle</button>  
+<p> <b>this is a poem</b><br>
+johny johny yes papa<br>
+eating sugar no papa<br></p>
+<button id="hide">Hide</button>
+ <button id="show">show</button>
+</body>
+
+</html>
